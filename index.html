@@ -1,215 +1,330 @@
+<style>#please{ 
+width:1019027777780px;
+height:1019027777780px;
+ border: 1px solid black;
+ border-radius: 382135416668px;
+};
+</style>
+<p id="please"></p>
 
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width">
-<meta name="msvalidate.01" content="350B26EB6E0FF52F875A8735813343DF" />
-<meta name="google-site-verification" content="AlVWXrTb7qfx-IAKXps2-pzLmGppjfwAn8MkUgeTPmM" />
-<link rel="icon" type="image/png" href="/fav-16.png?v=1" sizes="16x16" />
-<link rel="icon" type="image/png" href="/fav-32.png?v=1" sizes="32x32" />
-<link rel="icon" type="image/png" href="/fav-128.png?v=1" sizes="128x128" />
-<link rel="icon" type="image/png" href="/fav-192.png?v=1" sizes="192x192" />
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="/css/font-awesome.min.css?v=1">
-<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-
-<link href="/css/Navbar.min.css?v=1.4" rel="stylesheet" type="text/css" />
-<link href="/css/Site.min.css?v=1.11" rel="stylesheet" type="text/css" />
-<link rel="canonical" href="https://tunebat.com/Analyzer" />
-<link href="/css/basic.css" rel="stylesheet" type="text/css" />
-<link href="/css/dropzone.css" rel="stylesheet" type="text/css" />
-<script src="/js/dropzone.js?v=1.1"></script>
-<link href="/css/TrackList.min.css?v=1.1" rel="stylesheet" type="text/css" />
-<link href="/css/Analyzer.min.css?v=1.0" rel="stylesheet" type="text/css" />
-<title>Song Key & BPM Finder | Tunebat</title>
-<meta name="description" content="Find the key & BPM of any song for free. Upload your music for quick results. This is the best key & BPM analyzer on the internet.">
-<meta name="keywords" content="key,bpm,camelot,tempo,dj,producer,database,harmonic,mixing,finder,music,track,playlist">
+<html lang="en">
+<head>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="Karthikeyan K">
+	<title>Webpage Screenshots using Javascript & HTML5 - Demo by w3lessons.info</title>
+	<!-- Bootstrap CSS file -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+		<style type="text/css">
+body {
+	margin-top: 75px;
+}
+footer {
+	margin: 10px 0;
+}
+     
+.photo {
+	margin-bottom: 10px;
+}
+	</style>	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+<!-- Header -->
+		<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					 <a class="navbar-brand" href="/" style="font-size:22px;" target="_blank"><span class="label label-success">W3lessons</span></a>
+				</div>
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+					<form class="navbar-form navbar-right" role="search" action="https://w3lessons.info" method="GET">
+				      <div class="form-group">
+				        <input type="text" name="s" class="form-control" placeholder="Search">
+				      </div>
+				      <button type="submit" class="btn btn-primary">Submit</button>
+				    </form>
+					<ul class="nav navbar-nav">
+						 <li>
+                        <a href="https://w3lessons.info/">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://w3lessons.info/about">About</a>
+                    </li>
+                    <li>
+                        <a href="https://w3lessons.info/contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://w3lessons.info/request-a-tutorial/" target="_blank">Request a Tutorial</a>
+                    </li>
+					</ul>
+				</nav>
+			</div>
+		</header><style type="text/css">
+   #x {
+    color:#A1B9ED;
+    cursor:pointer;
+    display:none;
+}
+/* Set the hover state of "X" */
+ #x:hover {
+    color:#36c;
+}
+#result-image {
+  height:auto;
+  max-width:100%;
+}
+</style>
+<!-- Body -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- W3lessons Demo Top -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5104998679826243"
+     data-ad-slot="4903348995"
+     data-ad-format="auto"></ins>
 <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>		
+			<article>
+				<h1><a href="">Webpage Screenshots using Javascript & HTML5 - Demo</a></h1>
+		        <div class="row">
+		          
+		          	<div class="col-sm-6 col-md-6">		          		
+		          		<span class="glyphicon glyphicon-time"></span> September 09, 2019
+		          	</div>
+		          </div>
+		          <hr>
+						<div class="form-group">
 
-        ga('create', 'UA-100222937-1', 'auto');
-        ga('set', 'anonymizeIp', true);
-        ga('send', 'pageview');
+              <div class="well">
+ 
+                <img src="about:blank" id="result-image" style="display: none;">
 
-    </script>
-<script src="//static.h-bid.com/sncmp/sncmp_stub.min.js" type="text/javascript"></script>
+              </div>
+
+
+                <a href="javascript:;" onclick="wholePage();" class="btn btn-success">Take Whole Page</a>
+
+                <a href="javascript:;" onclick="LatestPost();" class="btn btn-info">Take Latest Post Box</a>
+
+                <a href="javascript:;" onclick="TakeAboutMe();" class="btn btn-danger">Take About Me Box</a>
+ 
+            </div>
+		          
+                   <center>
+                    <div style="margin:10px"> 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- W3lessons Post Link -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5104998679826243"
+     data-ad-slot="6694286272"
+     data-ad-format="link"></ins>
 <script>
-        window.__cmp('setLogo', "//tunebat.com/images/TunebatHead.png", function (result) { });
-        window.__cmp('setPrivacyPolicy', "//tunebat.com/Document/Privacy", function (result) { });
-        window.__cmp('setTranslationFiles', { path: '//static.h-bid.com/sncmp/languages/', locales: ["de"] }, function (result) { });
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 
-        window.__cmp('fullOptOut', null, function (result) { }); //used for full opt-out more info at http://cmp.snigelweb.com/showcase/cmp.php
-    </script>
-<script async type="text/javascript" src="//static.h-bid.com/tunebat.com/20190812/snhb-tunebat.com.min.js"></script>
-<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>var googletag = googletag || {}; googletag.cmd = googletag.cmd || [];</script>
-<script>var snhb = snhb || {}; snhb.queue = snhb.queue || [];</script>
+<div style="margin:20px;">
+	<script id="mNCC" language="javascript">
+    medianet_width = "336";
+    medianet_height = "280";
+    medianet_crid = "741221919";
+    medianet_versionId = "3111299"; 
+  </script>
+<script src="//contextual.media.net/nmedianet.js?cid=8CU65ZB5M"></script>
+
+</div>                </center>
+
+		        <div>
+				<a class="btn btn-lg btn-danger" href="https://w3lessons.info/how-to-capture-webpage-screenshot-using-javascript/">&larr; Back to Tutorial & Download</a>
+				</div>
+
+        <div style="width:100%; margin-top: 20px"><h2>Posts you may like</h2>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-5104998679826243"
+     data-ad-slot="7569826231"></ins>
 <script>
-        googletag.cmd.push(function () {
-            googletag.pubads().disableInitialLoad();
-            googletag.pubads().enableSingleRequest();
-            var additionalAdSlot = googletag.defineSlot('/22152718/tunebat_NVU', [1, 1], 'div-gpt-ad-1544011179596-0').addService(googletag.pubads());
-            snhb.queue.push(function () {
-                snhb.addAdditionalAdSlotsToRefresh([additionalAdSlot]);
-            });
-            googletag.enableServices();
-        });
-    </script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+               
 
-<script type="text/javascript" defer>
-        (function () { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//nextmillennium.liqwid.net/?key=D85D-A6F1-B041-B88A'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();
-    </script>
+			</article>				
+
+		</div>
+<div class="col-md-4">
+
+				<div class="well" id="profileBox">
+                     <div class="row">
+                        <div class="col-md-12">
+    <p class="text-left pull-left">
+      <img class="img-rounded" style="margin-right:10px;" src="https://www.gravatar.com/avatar/526bba62d8d99c7cd96f2a7dbc6ab0d3.jpg" alt="Karthikeyan K - Founder at W3lessons">
+    </p>
+    <p class="text-left" style="padding-left:10px; margin-left:10px;"><strong>Karthikeyan K</strong><br/>AWS Consultant & Blogger<br/>Chennai, India <br/><a href="mailto:karthi@w3lessons.info">karthi@w3lessons.info</a></p>
+    <p class="text-left"><span class="glyphicon glyphicon-facebook"></span></p>
+ </div>
+
+    <div class="text-center">
+ <form class="form-inline" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=nextweb2', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" _lpchecked="1">
+  <div class="form-group">
+    <label class="sr-only">Subscribe to get latest updates to your inbox.</label>
+    <input type="email" class="form-control" name="email" id="exampleInputEmail2" placeholder="Enter your Email ID here">
+    <input type="hidden" value="nextweb2" name="uri"><input type="hidden" name="loc" value="en_US">
+  </div>
+  <button type="submit" name="submit" class="btn btn-primary">Subscribe</button>
+  <p class="text-center"><br/><img src="https://feeds.feedburner.com/~fc/nextweb2?bg=FF9900&fg=000&anim=1&label=readers"></p>
+</form>
+</div>
+
+</div>
+
+</div>
+
+				 <div>
+                <center>
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Post Page1 - Responsive -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-5104998679826243"
+     data-ad-slot="6424151376"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</center>
+</div>
+
+					<!-- Latest Posts -->
+					<div class="panel panel-default" id="LatestPost">
+						<div class="panel-heading">
+							<h4>Latest Posts</h4>
+						</div>
+						<ul class="list-group">
+													<li class="list-group-item"><a target="_blank" href="http://feedproxy.google.com/~r/nextweb2/~3/nQXITXsBQr0/">.htaccess File – The Ultimate Guide For Beginners</a> <span class="label label-default">25 Sep 2019</span></li>
+													<li class="list-group-item"><a target="_blank" href="http://feedproxy.google.com/~r/nextweb2/~3/1mX0rm_MGDU/">How to capture webpage screenshot using javascript?</a> <span class="label label-default">10 Sep 2019</span></li>
+													<li class="list-group-item"><a target="_blank" href="http://feedproxy.google.com/~r/nextweb2/~3/a1DGXYjsS-E/">20+ Useful jQuery Code Snippets for Web Developers in 2019</a> <span class="label label-default">4 Aug 2019</span></li>
+													<li class="list-group-item"><a target="_blank" href="http://feedproxy.google.com/~r/nextweb2/~3/65iBgfsF8nI/">how to show loading image in ajax request using jquery?</a> <span class="label label-default">3 Aug 2019</span></li>
+													<li class="list-group-item"><a target="_blank" href="http://feedproxy.google.com/~r/nextweb2/~3/ywzAfpCTjrU/">How to speed up software testing?</a> <span class="label label-default">25 Jul 2019</span></li>
+													<li class="list-group-item"><a target="_blank" href="http://feedproxy.google.com/~r/nextweb2/~3/u3zBZV9ce5o/">7 blogs every web designers should follow to stay productive</a> <span class="label label-default">12 Jul 2019</span></li>
+													<li class="list-group-item"><a target="_blank" href="http://feedproxy.google.com/~r/nextweb2/~3/wALp6FDrvBw/">How to find the difference between two dates in php?</a> <span class="label label-default">31 May 2019</span></li>
+													<li class="list-group-item"><a target="_blank" href="http://feedproxy.google.com/~r/nextweb2/~3/hOFcLfJ5TqQ/">New Gmail Account Login &amp; Registration Form with Material Design and jQuery</a> <span class="label label-default">2 Apr 2019</span></li>
+													<li class="list-group-item"><a target="_blank" href="http://feedproxy.google.com/~r/nextweb2/~3/9jnpcqwR56Y/">Removing index.php from Codeigniter URL</a> <span class="label label-default">27 Mar 2019</span></li>
+													<li class="list-group-item"><a target="_blank" href="http://feedproxy.google.com/~r/nextweb2/~3/w5DWM7orjCM/">Node js vs php – Which One is Better?</a> <span class="label label-default">19 Jan 2019</span></li>
+												</ul>
+					</div>
+
+					<!-- Categories -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>Categories</h4>
+						</div>
+						<ul class="list-group">
+							<li class="list-group-item"><a href="https://w3lessons.info/category/php/">PHP</a></li>
+							<li class="list-group-item"><a href="https://w3lessons.info/category/jquery/">jQuery</a></li>
+							<li class="list-group-item"><a href="https://w3lessons.info/category/facebook/">Facebook Style Scripts</a></li>
+							<li class="list-group-item"><a href="https://w3lessons.info/category/html5-2/">HTML5</a></li>
+							<li class="list-group-item"><a href="https://w3lessons.info/category/css3/">CSS3</a></li>
+						</ul>
+					</div>
+
+
+				</div>	</div>
+
+</div>
+<!-- Footer -->
+<footer>
+<div class="container">
+	<hr />
+	<p class="text-center">Copyright &copy; <a href="https://w3lessons.info">w3lessons.info</a> 2019. All rights reserved.</p>
+</div>
+</footer>
+<!-- Bootstrap Script file -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+/*Google Analytics*/
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-27820211-3', 'auto');
+ga('send', 'pageview');
+</script>
+<script src="//load.sumome.com/" data-sumo-site-id="1cf2c3d548b156a57050bff06ee37284c67d0884b086bebd8e957ca1c34e99a1" async="async"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js" integrity="sha256-c3RzsUWg+y2XljunEQS0LqWdQ04X1D3j22fd/8JCAKw=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.min.js" integrity="sha256-FPJJt8nA+xL4RU6/gsriA8p8xAeLGatoyTjldvQKGdE=" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
-	
-    var appInsights=window.appInsights||function(a){
-        function b(a){c[a]=function(){var b=arguments;c.queue.push(function(){c[a].apply(c,b)})}}var c={config:a},d=document,e=window;setTimeout(function(){var b=d.createElement("script");b.src=a.url||"https://az416426.vo.msecnd.net/scripts/a/ai.0.js",d.getElementsByTagName("script")[0].parentNode.appendChild(b)});try{c.cookie=d.cookie}catch(a){}c.queue=[];for(var f=["Event","Exception","Metric","PageView","Trace","Dependency"];f.length;)b("track"+f.pop());if(b("setAuthenticatedUserContext"),b("clearAuthenticatedUserContext"),b("startTrackEvent"),b("stopTrackEvent"),b("startTrackPage"),b("stopTrackPage"),b("flush"),!a.disableExceptionTracking){f="onerror",b("_"+f);var g=e[f];e[f]=function(a,b,d,e,h){var i=g&&g(a,b,d,e,h);return!0!==i&&c["_"+f](a,b,d,e,h),i}}return c
-    }({
-        instrumentationKey: '23cb45ec-8df0-4233-b8ab-acfd2577e203'
-    });
 
-    window.appInsights=appInsights,appInsights.queue&&0===appInsights.queue.length&&appInsights.trackPageView();
-	
-    </script></head>
-<body>
-<nav class="navbar navbar-default navbar-fixed-top">
-<div class="container-fluid navbar-container">
-<div class="navbar-header">
-</div>
-<button type="button" class="navbar-toggle collapsed col-xs-1 hamburger-button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" id="mobile-dropdown-btn">
-<span class="sr-only">Toggle navigation</span>
-<span class="fa fa-bars" aria-hidden="true"></span>
-</button>
-<a class="navbar-brand" id="navbar-logo" href="/"><img class="navbar-logo" src="/images/TunebatHead.png?v=1.0" /></a>
-<script>
-            var query = '';
-            if ($("#mobile-dropdown-btn").is(":visible")) {
-                $("#navbar-logo").hide();
-            }
-            $(window).resize(function () {
-                if ($("#mobile-dropdown-btn").is(":visible")) {
-                    $("#navbar-logo").hide();
-                } else {
-                    $("#navbar-logo").show();
-                }
-            });
-            </script>
-<form class="navbar-form navbar-left search-bar" action="/Search" method="get">
-<div class="form-group search-group">
-<input type="text" id="q" name="q" value="" class="form-control search-field" placeholder="Search songs, artists, and albums..." spellcheck="false" autofocus required>
+function wholePage()
+{
+  html2canvas(document.body, {
+      onrendered: function(canvas)  
+      {
+        var img = canvas.toDataURL();
+        $("#result-image").attr('src', img).show();
 
-<button type="submit" class="btn btn-default search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
-</div>
-</form>
+        canvas.toBlob(function(blob) {
+          saveAs(blob, "wholePage.png");
+        });
+      }
+  });
+  return false;
+}
 
-<div class="collapse navbar-collapse" id="navbar-collapse">
-<ul class="nav navbar-nav">
-<li class="nav-mobile-button"><a href="/" class="navbar-button">Home</a></li>
-<li><a href="/Advanced" class="navbar-button">Advanced</a></li>
-<li><a href="/Analyzer" class="navbar-button">Key & BPM Finder</a></li>
-</ul>
-<ul class="nav navbar-nav navbar-right">
-<li><a href="https://vizfly.com" target="_blank" class="navbar-button vizfly" onclick="ga('send', 'event', 'Link', 'open vizfly nav', 'Nav')"><span>Video Creator</span></a></li>
-</ul>
-</div>
-</div>
-</nav>
-<script>
-        function dragstart_handler(ev) {
-            ev.dataTransfer.setData("text/plain", ev.target.id);
-            ev.dataTransfer.setData("offsetX", ev.x - ev.target.offsetLeft);
-            ev.dataTransfer.setData("offsetY", ev.y - ev.target.offsetTop);
-            ev.dataTransfer.dropEffect = "move";
-        }
-        function dragover_handler(ev) {
-            ev.preventDefault();
-            ev.dataTransfer.dropEffect = "move"
-        }
-        function drop_handler(ev) {
-            ev.preventDefault();
-            var data = ev.dataTransfer.getData("text/plain");
-            var x = ev.x - parseInt(ev.dataTransfer.getData("offsetX"));
-            var y = ev.y - parseInt(ev.dataTransfer.getData("offsetY"));
-            document.getElementById(data).style.left = String(x) + 'px';
-            document.getElementById(data).style.top = String(y) + 'px';
-        }
-    </script>
-<div class="container body-content" id="body-content" ondrop="drop_handler(event);" ondragover="dragover_handler(event);">
-<div id="analyzer-content">
-<div id="react_0HLR75LNB0HDB"><div class="analyzerContainer" data-reactroot=""><div class="row main-row"><h1 class="an-h1 col-md-12 col-sm-12 col-xs-12">Song Key &amp; BPM Finder</h1></div><div class="col-md-12 col-sm-12 col-xs-12"><h2 class="an-h2">Upload your audio files to find the key and tempo of the tracks in your library. This is a free tool for DJs interested in harmonic mixing, producers looking to remix songs, and anyone trying to understand their music a little better.</h2></div><div class="row main-row"><div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 main-column"><form action="https://tunebatanalytics.com/upload/" class="dropzone" id="dropzone"><div class="dz-message"><p class="an-upload-icon"><i class="fa fa-cloud-upload" aria-hidden="true"></i></p><p class="an-upload-msg"><span class="an-browse-btn">Browse</span> or drag and drop audio files here to analyze your music.</p><p class="an-upload-details">Accepted file types: MP3, WAV, FLAC, AAC, OGG, M4A</p><p class="an-upload-details">Max file size: 75MB</p></div></form><div class="an-control-container col-md-12 col-sm-12 col-xs-12 main-column"><div class="col-md-6 col-md-offset-3 main-column"><button class="an-browse-btn center-block" id="an-browse-btn-2">Upload More</button></div></div></div></div><div class="analyzerResultsContainer"><div class="row main-row"><div class="col-md-8 col-md-offset-2"></div></div></div><div id="an-file-template" hidden=""><div class="dz-preview dz-file-preview"><div class="dz-details"><div class="dz-filename col-md-5"><span data-dz-name="true"></span></div><div class="dz-size col-md-2" data-dz-size="true"></div><div class="dz-progress col-md-3"><span class="dz-upload" data-dz-uploadprogress="true"><div class="load-bar" hidden=""><div class="bar"></div><div class="bar"></div></div></span></div><div class="col-md-2"><span class="status-message">Uploading</span></div></div></div></div><div class="analyzerFaqContainer row main-row"><div class="col-md-12 col-sm-12 col-xs-12"><h2>FAQ</h2><h3>Why are the results from the finder sometimes different from the database?</h3><p class="faq-p">The key and BPM values in the database are provided by Spotify who use their own estimation algorithms to find key and BPM. The analysis results you get from uploading audio files to this page come from different algorithms that are run on Tunebat servers. Due to the algorithms being different, sometimes the results are different. Also, it&#x27;s possible that there are differences between the file you upload, and the file Spotify analyzes for a specific song.</p><h3>How accurate is the finder?</h3><p class="faq-p">The results you see on this page are estimates. The accuracy of these estimates has been measured across multiple large data sets and compared to several prominent commercial key and BPM detection algorithms. For some datasets this finder proved more accurate than existing commercial key and BPM detection tools. But for other data sets this finder was less accurate. Overall you can expect results from this finder to be as accurate as key and BPM finders found in other commercial softwares, more or less.</p><h3>What happens to the audio files I upload?</h3><p class="faq-p">They are uploaded to Tunebat&#x27;s analysis server where they are analyzed using audio processing algorithms. These algorithms output key and BPM which is reported back to you. Then the audio file is deleted from the Tunebat server. No audio files are kept by Tunebat longer than they are needed to complete the analysis.</p><h3>What file types can I upload?</h3><p class="faq-p">MP3, WAV, FLAC, AAC, OGG, and M4A.</p><h3>Is there a file size limit?</h3><p class="faq-p">Yes. 75MB.</p><h3>Is there a limit to the number of files I upload?</h3><p class="faq-p">Yes. Currently there is a limit that&#x27;s been put in place to prevent overloading the analysis server. If you&#x27;d like this limit removed please reach out to .</p><h3>Is there an API for the finder?</h3><p class="faq-p">Currently no. However, if there is enough interest it could be made. If you&#x27;re interested, please reach out to .</p><h3>What do I do if there&#x27;s an error?</h3><p class="faq-p">Make sure you are using one of the supported file types. Make sure the file is less than 75MB. If you have reached the upload limit, then wait 1 hour before trying to upload again. Make sure you&#x27;ve disabled any adblockers. If this doesn&#x27;t address your case, then you can report the error to .</p></div></div></div></div>
-</div>
-<div id="nm-sticky-container"></div>
-<div class="sticky-container"></div>
-<div class="body-content-bottom">
-©	2019 Tunebat LLC
-</div>
-</div>
-<div class="row main-row footer-container">
-<div class="row main-row footer-segment">
-<a href="/Document/Terms">Terms of Service</a> •
-<a href="/Document/Privacy">Privacy Policy</a>
-</div>
-<div class="row main-row footer-segment">
-Powered by the
-<a href="https://developer.spotify.com/web-api/">Spotify Web API</a>
-</div>
-<div class="row main-row footer-segment" id="contact">
-</div>
-</div>
-<script>
-        $("#contact").html("Contact: oliver" + "@" + "tunebat.com")
-    </script>
-<div id="audio-player-container"></div>
+function TakeAboutMe()
+{
+  html2canvas(document.querySelector("#profileBox"), {
+      onrendered: function(canvas)  
+      {
+        var img = canvas.toDataURL();
+        $("#result-image").attr('src', img).show();
+        canvas.toBlob(function(blob) {
+          saveAs(blob, "AboutMe.png");
+        });
+      },
+      allowTaint: true,
+      imageTimeout: 0,
+      useCORS: true
+  });
+  return false;
+}
 
-<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/16.4.0/umd/react.production.min.js"></script>
-<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.4.0/umd/react-dom.production.min.js"></script>
-<script src="/js/ReactUIComponents/Analyzer.jsx?v=1.2"></script>
-<script src="/js/jquery.cookie.min.js?v=1" defer="defer"></script>
-<script>ReactDOM.hydrate(React.createElement(AnalyzerContainer, {}), document.getElementById("react_0HLR75LNB0HDB"));
+function LatestPost()
+{
+  html2canvas(document.querySelector("#LatestPost"), {
+      onrendered: function(canvas)  
+      {
+        var img = canvas.toDataURL();
+        $("#result-image").attr('src', img).show();
+        canvas.toBlob(function(blob) {
+          saveAs(blob, "LatestPost.png");
+        });
+      },
+      allowTaint: true,
+      imageTimeout: 0,
+      useCORS: true
+  });
+  return false;
+}
+
 </script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css?v=1">
-<div id="mailchimp-popup-container"></div>
-<link href="/css/MailChimp.min.css?v=1.2" rel="stylesheet" type="text/css" />
-<script src="/js/ReactUIComponents/MailChimpForm.jsx?v=1.3"></script>
-<div id="cookies-banner"></div>
-<link href="/css/CookieBanner.min.css?v=1.1" rel="stylesheet" type="text/css" />
-<script src="/js/ReactUIComponents/CookieBanner.jsx?v=1.2"></script>
-<div id="survey-container"></div>
-<div id="dwidget-container" draggable="true" ondragstart="dragstart_handler(event);"></div>
-<script>
-
-        if ($(window).width() >= 1520) {
-            $('.sticky-container').each(function () {
-                $(this).html(`<!--<pre>tunebat_sidebar-1 desktop:[160x600]</pre>-->
-                        <div id='snhb-tunebat_sidebar-1-0'></div>`);
-            });
-        }
-        if ($(window).width() >= 768) {
-            $('.pb-alt').each(function () {
-                $(this).html(`<!--<pre>/22152718/tunebat_NVU</pre>-->
-                <div id='div-gpt-ad-1544011179596-0'>
-                    <script>googletag.cmd.push(function () { googletag.display('div-gpt-ad-1544011179596-0'); });<\/script>
-                </div>`);
-            });
-
-        }
-        else {
-            $('.sw-alt').each(function () {
-                $(this).html(`<!--<pre>tunebat_in-content_1 desktop:[300x250][728x90]/mobile:[300x250]</pre>-->
-<div id='snhb-tunebat_in-content_1-0'></div>`);
-            });
-        }
-    </script>
 </body>
 </html>
